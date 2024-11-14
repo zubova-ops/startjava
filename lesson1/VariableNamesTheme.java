@@ -14,8 +14,8 @@ public class VariableNamesTheme {
             System.out.println("Произведение цифр= " + multiplication);
 
         // Максимальное число
-        int max = 8;
-            System.out.println("Максимальное число " + max);
+        int maxNum = 8;
+            System.out.println("Максимальное число " + maxNum);
 
         // Количество десятков
         int tens = 2;
@@ -60,8 +60,8 @@ public class VariableNamesTheme {
         // Математическое выражение
         int a = 2;
         int b = 3;
-        int mathematicalExpression = a + b;
-            System.out.println(mathematicalExpression);
+        int sum1 = (a + b);
+            System.out.println(sum1);
 
         // Счёт в игре
         int team1 = 5;
@@ -77,14 +77,12 @@ public class VariableNamesTheme {
             System.out.println(menuItem);
 
         // Стоимость кофе
-        int coffiePrice = 300;
-            System.out.println(coffiePrice + "рублей");
+        int coffeePrice = 300;
+            System.out.println(coffeePrice + "рублей");
 
         // Дата начала
-        int day= 21;
-        int month = 6;
-        int year = 1995;
-            System.out.println(day + "0" + month + year);
+        String birthDay = "20 ноября 2020 год";
+            System.out.println(birthDay);
 
         // Окончание диапазона
         int endOfRange = 100;
@@ -111,12 +109,13 @@ public class VariableNamesTheme {
             System.out.println("Счётчик - это" + counter);
 
         // Путь до файла
-        String filePath = "C:'\'Users'\'Дарья";
+        String filePath = "C:'\\'Users'\\'Дарья";
             System.out.println(filePath);
 
         // Количество чисел в каждой сроке
         int amountNumbersInEveryLine = 5;
             System.out.println(amountNumbersInEveryLine);
+            System.out.println("                      ");
 
 
 
@@ -156,11 +155,12 @@ public class VariableNamesTheme {
         // Имеются уникальные строки?
         boolean hasUniqueStrings = true;
             System.out.println(hasUniqueStrings);
+            System.out.println("                      ");
 
 
 
         System.out.println("3.Аббревиатуры");
-        // Старый universally unique identifie
+        // Старый universally unique identifier
         String uuid = "стандарт идентификации, используемый в создании программного обеспечения";
             System.out.println(uuid);
 
@@ -188,4 +188,4 @@ public class VariableNamesTheme {
         String ascii = "American standard code for information interchange";
             System.out.println(ascii);  
     }
-    }
+}
