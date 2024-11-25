@@ -3,7 +3,7 @@ public class VariableNamesTheme {
         System.out.println("1.Разные переменные");
         // Цифра 
         int number = 5;
-            System.out.println("Цифра" + number);
+            System.out.println("Цифра" + " " + number);
 
         // Сумма 
         int sum = 21;
@@ -19,11 +19,11 @@ public class VariableNamesTheme {
 
         // Количество десятков
         int tens = 2;
-            System.out.println("Количество десятков= " + tens);
+            System.out.println("Количество десятков = " + tens);
 
         // Вес собаки
         int dogWeight = 10;
-            System.out.println("Вес собаки= " + dogWeight + "кг");
+            System.out.println("Вес собаки = " + dogWeight + "кг");
 
         // Исходное число
         int initNumber = 1;
@@ -51,7 +51,7 @@ public class VariableNamesTheme {
 
         // Уникальное число
         int uniqueNumber = 5;
-            System.out.println("Уникальное число= " + uniqueNumber);
+            System.out.println("Уникальное число = " + uniqueNumber);
 
         // Случайное число
         int randomNumber = 2;
@@ -60,8 +60,8 @@ public class VariableNamesTheme {
         // Математическое выражение
         int a = 2;
         int b = 3;
-        int sum1 = (a + b);
-            System.out.println(sum1);
+        int sumNum = (a + b);
+            System.out.println(sumNum);
 
         // Счёт в игре
         int team1 = 5;
@@ -70,7 +70,7 @@ public class VariableNamesTheme {
 
         // Максимальная длина
         int maxLength = 20;
-            System.out.println(maxLength + "см");
+            System.out.println(maxLength + " " + "см");
 
         // Пункт меню
         String menuItem = "Команда";
@@ -78,7 +78,7 @@ public class VariableNamesTheme {
 
         // Стоимость кофе
         int coffeePrice = 300;
-            System.out.println(coffeePrice + "рублей");
+            System.out.println(coffeePrice +  " " + "рублей");
 
         // Дата начала
         String birthDay = "20 ноября 2020 год";
@@ -102,14 +102,14 @@ public class VariableNamesTheme {
 
         // Вместимость
         int capacity = 3;
-            System.out.println("Вместимость = " + capacity + "литра");
+            System.out.println("Вместимость = " + capacity + " " + "литра");
 
         // Счётчик
         String counter = "прибор для подсчёта";
             System.out.println("Счётчик - это" + counter);
 
         // Путь до файла
-        String filePath = "C:'\\'Users'\\'Дарья";
+        String filePath = "C:\\Users\\Дарья";
             System.out.println(filePath);
 
         // Количество чисел в каждой сроке
