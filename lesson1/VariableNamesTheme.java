@@ -23,7 +23,7 @@ public class VariableNamesTheme {
 
         // Вес собаки
         int dogWeight = 10;
-            System.out.println("Вес собаки = " + dogWeight + "кг");
+            System.out.println("Вес собаки = " + dogWeight + " " + "кг");
 
         // Исходное число
         int initNumber = 1;

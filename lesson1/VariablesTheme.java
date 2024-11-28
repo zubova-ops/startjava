@@ -28,9 +28,9 @@ public class VariablesTheme {
         double priceNotDiscount = pen + book;
         double discountSum = ((pen + book) * discount) / 100;
         double priceDiscount = priceNotDiscount - discountSum;
-            System.out.println("Стоимость без скидки = " + priceNotDiscount);
-            System.out.println("Сумма скидки = " + discountSum);
-            System.out.println("Стоимость со скидкой = " + priceDiscount);
+            System.out.println("Стоимость без скидки = " + " " + priceNotDiscount);
+            System.out.println("Сумма скидки = " + " " + discountSum);
+            System.out.println("Стоимость со скидкой = " + " " + priceDiscount);
             System.out.println();
             System.out.println();
 

@@ -8,7 +8,7 @@ public class IfElseStatementTheme {
         } else {
             System.out.println("male gender");
         }
-    System.out.println("                               ");
+    System.out.println();
 
     int age = 5;
         if (age > 18) {
@@ -16,7 +16,7 @@ public class IfElseStatementTheme {
         } else {
             System.out.println("Ребёнок");
         }
-    System.out.println("                     ");
+    System.out.println();
 
     double height = 1.67;
         if (height < 1.8 ) {
@@ -24,7 +24,7 @@ public class IfElseStatementTheme {
         } else {
             System.out.println("Высокий рост");
         }
-    System.out.println("                               ");
+    System.out.println();
 
     char nameFirstLetter = "Dasha".charAt(0);
         if (nameFirstLetter == 'M') {
@@ -35,9 +35,9 @@ public class IfElseStatementTheme {
             System.out.println("Имя на букву:" + nameFirstLetter);
         }
 
-    System.out.println("                                     ");
-    System.out.println("                                     ");
-    System.out.println("                                     ");
+    System.out.println();
+    System.out.println();
+    System.out.println();
 
 
     System.out.println("2.Поиск большего числа:");
@@ -52,9 +52,9 @@ public class IfElseStatementTheme {
         } else {
             System.out.println("Наибольшее число:" + number1);
         }
-    System.out.println("                                 ");
-    System.out.println("                                 ");
-    System.out.println("                                 ");
+    System.out.println();
+    System.out.println();
+    System.out.println();
 
 
     System.out.println("3.Проверка числа:");
@@ -78,9 +78,9 @@ public class IfElseStatementTheme {
         }
         
 
-    System.out.println("                         ");
-    System.out.println("                         ");
-    System.out.println("                         ");
+    System.out.println();
+    System.out.println();
+    System.out.println();
 
 
     System.out.println("4. Поиск одинаковых цифр в числах:");
@@ -100,9 +100,9 @@ public class IfElseStatementTheme {
         }
         }
 
-        System.out.println("                                         ");
-        System.out.println("                                         ");
-        System.out.println("                                         ");
+        System.out.println();
+        System.out.println();
+        System.out.println();
 
         System.out.println("5. Определение символа по его коду:");
         char code = '\u0057';
@@ -115,9 +115,9 @@ public class IfElseStatementTheme {
             }
              
              
-        System.out.println("                                ");
-        System.out.println("                                ");
-        System.out.println("                                ");
+        System.out.println();
+        System.out.println();
+        System.out.println();
 
         System.out.println("6.Подсчёт начисленных банком процентов:");
         float sum = 321123.59f;
@@ -136,9 +136,9 @@ public class IfElseStatementTheme {
                 System.out.println("Итоговая сумма вклада:" + (sum + sum10) + " " + "рублей");
             }
 
-        System.out.println("                                           ");
-        System.out.println("                                           ");
-        System.out.println("                                           ");
+        System.out.println();
+        System.out.println();
+        System.out.println();
 
         System.out.println("7.Определение оценки по предметам:");
         float history = 59f;
@@ -167,9 +167,9 @@ public class IfElseStatementTheme {
         System.out.println("Средний балл оценок -" + gpa);
         System.out.println("Средний процент по предметам -" + averadgePersent);
 
-        System.out.println("                          ");
-        System.out.println("                          ");
-        System.out.println("                          ");
+        System.out.println();
+        System.out.println();
+        System.out.println();
 
         System.out.println("8.Расчёт годовой прибыли:");
         float monthlySales = 13025.233f;
