@@ -57,7 +57,7 @@ public class FinalHomeWork {
                         System.out.println(playerRandomNum + " больше того, что загадал компьютер");
                     }
                 }
-            } else if (playerRandomNum < randomNum) {
+            } else {
                 System.out.println(playerRandomNum + " меньше того, что загадал компьютер");
                 while (playerRandomNum != randomNum) {
                     playerRandomNum++;
